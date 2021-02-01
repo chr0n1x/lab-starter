@@ -1,6 +1,9 @@
-title: # a name for your Learning Lab course
-tagline: # a short description for your Learning Lab course, displayed on the course catalog
-description: # a longer description for your Learning Lab course, displayed on the course's landing page
+title: Developing Ruby in Docker
+tagline: Using Docker to program Ruby to avoid local-machine setups.
+description: |
+  Docker is a great tool for ensuring that you deploy bit-for-bit any containers that you have tested locally.
+  It is not limited to just deploying applications though. It can also be leveraged as a portable development environment.
+  In this lab you will learn the basics of building Docker containers for local development.
 
 # Repository setup
 # The following section template information for the repository
