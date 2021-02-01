@@ -27,8 +27,8 @@ before:
 
 steps:
 # Step 1: create Dockerfile, build it, create PR with it.
-- title: # the title of the step, shown to the learner in the course progress page
-  description: # a description of the step, shown to the learner in the course progress page
+- title: Create a Dockerfile
+  description: Create a Dockerfile with Ruby built in to start developing!
   event: pull_request.synchronize
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: gate
