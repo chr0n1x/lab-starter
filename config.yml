@@ -1,4 +1,4 @@
-title: Developing Ruby in Docker
+title: Developing with Docker
 tagline: Using Docker to program Ruby to avoid local-machine setups.
 description: |
   Docker is a great tool for ensuring that you deploy bit-for-bit any containers that you have tested locally.
