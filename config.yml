@@ -28,7 +28,10 @@ steps:
   description: # a description of the step, shown to the learner in the course progress page
   event: pull_request.synchronize
   actions: # a list of the actions that will occur when the step is triggered by an event
-  - type: # the type of action, full list at https://lab.github.com/docs/actions
+  - type: gate
+    left: '%payload.pull_request.title%'
+    operator: ===
+    right: Add Dockerfile
 
 # Step 2: write a ruby script
 # - title: # the title of the step, shown to the learner in the course progress page
