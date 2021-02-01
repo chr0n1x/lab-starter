@@ -32,6 +32,18 @@ steps:
     left: '%payload.pull_request.title%'
     operator: ===
     right: Add Dockerfile
+    else:
+    - type: respond
+      with: responses/01_try-again.md
+  - type: gate
+    left: '%payload.pull_request.base.ref%'
+    operator: ===
+    right: main
+    else:
+    - type: respond
+      with: responses/01_try-again.md
+- type: respond
+  with: responses/01_nice-work.md
 
 # Step 2: write a ruby script
 # - title: # the title of the step, shown to the learner in the course progress page
