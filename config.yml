@@ -1,9 +1,6 @@
 title: Developing with Docker
-tagline: Using Docker to program Ruby to avoid local-machine setups.
-description: |
-  Docker is a great tool for ensuring that you deploy bit-for-bit any containers that you have tested locally.
-  It is not limited to just deploying applications though. It can also be leveraged as a portable development environment.
-  In this lab you will learn the basics of building Docker containers for local development.
+tagline: Use Docker to avoid local-machine setups.
+description: Learn the basics of building Docker containers for local development.
 
 # Repository setup
 # The following section template information for the repository
